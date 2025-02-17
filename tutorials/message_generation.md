@@ -214,13 +214,8 @@ gz_msgs_generate_messages(
   MSGS_PATH ${CMAKE_CURRENT_SOURCE_DIR}/proto
   # List of proto files to process
   MSGS_PROTOS ${MSGS_PROTOS}
-<<<<<<< HEAD
-  # Depenency on gz-msgs
-  DEPENDENCIES gz-msgs11::gz-msgs11
-=======
   # Dependency on gz-msgs
-  DEPENDENCIES gz-msgs12::gz-msgs12
->>>>>>> 9f05e35 (Code cleanup (#485))
+  DEPENDENCIES gz-msgs11::gz-msgs11
 )
 ```
 
